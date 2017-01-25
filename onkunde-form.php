@@ -5,9 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Mad Libs</title>
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-	<h1>Mad Libs</h1>
+	<a href="index.php"><h1>Mad Libs</h1></a>
 	<h2>Onkunde</h2>
 	<form action="onkunde.php" method="post">
 		Wat zou je graag willen kunnen?
@@ -24,7 +25,8 @@
 		<input type="text" name="6" value=""> <br>
 		Wat is het ergste dat je kan overkomen?
 		<input type="text" name="7" value=""> <br>
-		<input type="submit" value="Submit">
+		<input type="submit" value="Versturen">
 	</form>
+	<img src="imgs/onkunde.jpg" alt="background">
 </body>
 </html>

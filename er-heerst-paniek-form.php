@@ -5,9 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Mad Libs</title>
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-	<h1>Mad Libs</h1>
+	<a href="index.php"><h1>Mad Libs</h1></a>
 	<h2>Er heerst paniek...</h2>
 	<form action="er-heerst-paniek.php" method="post">
 		Welk dier zou je nooit als huisdier willen hebben?
@@ -26,7 +27,8 @@
 		<input type="text" name="7" value=""> <br>
 		Wat is je favoriete bezigheid?
 		<input type="text" name="8" value=""> <br>
-		<input type="submit" value="Submit">
+		<input type="submit" value="Versturen">
 	</form>
+	<img src="imgs/castle.jpg" alt="background">
 </body>
 </html>

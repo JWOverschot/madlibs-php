@@ -5,9 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Mad Libs</title>
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-	<h1>Mad Libs</h1>
+	<a href="index.php"><h1>Mad Libs</h1></a>
 	<h2>Er heerst paniek...</h2>
 	<p>Er heerst paniek in het koninkrijk <?php echo $_POST["3"]; ?>. Koning <?php echo $_POST["6"]; ?> is ten einde raad en als koning <?php echo $_POST["6"]; ?> ten einde raad is, dan roept hij zijn ten-einde-raadsheer <?php echo $_POST["2"]; ?>.</p>
 	<p>"<?php echo $_POST["2"]; ?>! Het is een ramp! Het is een schande!"</p>
@@ -18,5 +19,6 @@
 	<p>"Maar Sire, daar kunt u toch uw <?php echo $_POST["7"]; ?> voor gebruiken"</p>
 	<p>"<?php echo $_POST["2"]; ?>, je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."</p>
 	<p>"<?php echo $_POST["4"]; ?>, Sire"</p>
+	<img src="imgs/castle.jpg" alt="background">
 </body>
 </html>
